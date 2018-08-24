@@ -1,0 +1,183 @@
+@charset "utf-8";
+.jumbotron{
+    width: 100%;
+    background-image: url('../img/dinosaure.jpg');
+    background-size: cover;
+    color: #ffffff;
+    position: relative;
+    top: 0;
+}
+
+.logo{
+    position: relative;
+    left: 29%;
+}
+
+.air{
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+}
+
+nav{
+    opacity: 0.7;
+    z-index: 1;
+    
+}
+
+a {
+    color: #fff;
+}
+
+.container{
+    width: 60%;
+
+}
+
+.center{
+    width: 68%;
+    margin-left: 115px;
+}
+
+.article{
+    margin-top: 50px;
+    
+}
+
+.adress{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries : */
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/* 
+
+
+
+@media screen and (max-width: 1000px){
+    body{
+        background: lightblue;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background: lightcoral;
+    }
+    #wrapper{
+        width: 650px;
+        background: yellow;
+    }
+}
+
+@media screen and (max-width: 550px){
+    body{
+        background: lightgoldenrodyellow;
+    }
+
+    #wrapper{
+        width: 400px;
+        background: red;
+    }
+   header h1{
+        font-size: 18px;
+        text-align: center;
+    }
+    nav ul li{
+        display: block;
+    }
+
+    nav ul li a{
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    body{
+        background: rgb(187, 187, 18);
+    }
+
+    #wrapper{
+        width: 250px;
+        background: silver;
+    }
+   header h1{
+        font-size: 8px;
+        text-align: center;
+    }
+    nav ul li{
+        display: block;
+    }
+
+    nav ul li a{
+        font-size: 9px;
+        line-height: 9px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+*/
